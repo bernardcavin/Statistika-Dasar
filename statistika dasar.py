@@ -68,7 +68,7 @@ class data:
         datamin = min(self.data)
         return datamax-datamin
     
-    def simpangan_quartil(self):
+    def simpangan_kuartil(self):
         return self.kuartil_tiga()-self.kuartil_satu()
 
     def variansi(self):
